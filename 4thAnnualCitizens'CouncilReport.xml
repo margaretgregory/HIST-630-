@@ -3,25 +3,64 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Associaton of Citizens' Councils of Mississippi:Fourth Annual Report July 1958</title>
+            <author>Association of Citizens' Councils of Mississippi</author><respStmt><resp>Editor</resp> <name>Margaret Gregory</name></respStmt>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p> Encoded for DHUM 630 Spring 2023 </p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
-         </sourceDesc>
+            <p>Association of Citizens' Councils of Mississippi, "Association of Citizens' Council of Mississippi, 4th
+               Annual Report" (1958). Pamphlets and Broadsides. 6.
+               https://egrove.olemiss.edu/citizens_pamph/6  University of Mississippi, eGrove</p></sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
-     <front>
-        <div>
-           <docAuthor>ASSOCIATION OF CITIZENS' COUNCILS OF MISSISSIPPI</docAuthor>
-        </div>
-     </front>
+   </teiHeader>
+   <text>
+      <front>
+         <docAuthor>ASSOCIATION OF CITIZENS' COUNCILS OF MISSISSIPPI</docAuthor>
+         <!-- States Rights : Racial Integrity -->
+         <!-- Greenwood, Mississippi -->
+         <docTitle>
+            <titlePart type="main"> 4th Annual Report July 1958</titlePart>
+            <titlePart type="sub">In Retrospect</titlePart>
+         </docTitle>
+         <!-- State Executive Committee and Officers -->
+         <div type="officers">
+            <listPerson>
+               <person><persName>J.O. Sams</persName><residence>Columbus</residence></person>
+               <person><persName>John B. Cunningham </persName><residence>Brooksville</residence></person>
+               <person><persName>N.E. Dacus </persName><residence>Tupelo</residence></person>
+               <person><persName>Shelby Woodward </persName><residence>Louisville</residence></person>
+               <person><persName>Z.M. Veazey, Jr. </persName><residence>Coldwater</residence></person>
+               <person><persName>W.H. Anderson </persName><residence>Ripley</residence></person>
+               <person><persName>Ben Jack Hilbun </persName><residence>Oxford</residence></person>
+               <person><persName>John Tabor </persName><residence>Winona</residence></person>
+               <person><persName>A.E. Britt </persName><residence>Indianola</residence></person>
+               <person><persName>Wilburn Hooker </persName><residence>Lexington</residence></person>
+               <person><persName>Fred Jones </persName><residence>Inverness</residence></person>
+               <person><persName>Pete Williams, Sr. </persName><residence>Clarksdale</residence></person>
+               <person><persName>Tom P. Brady </persName><residence>Brookhaven</residence></person>
+               <person><persName>Albert Gardner </persName><residence>Yazzo City</residence></person>
+               <person><persName>Clay Tucker </persName><residence>Woodville</residence></person>
+               <person><persName>Ellis W. Wright </persName><residence>Jackson</residence></person>
+               <person><persName>W.H. Johnson, Jr. </persName><residence>Decatur</residence></person>
+               <person><persName>R.C. Bradshaw </persName><residence>Pearl</residence></person>
+               <person><persName>H.H. Harpole </persName><residence>Philadelphia</residence></person>
+               <person><persName>Marion Simpson </persName><residence>Canton</residence></person>
+               <person><persName>Dewey Myers </persName><residence>Prentiss</residence></person>
+               <person><persName>Ward Hurt </persName><residence>Lumberton</residence></person>
+               <person><persName>Robert Oswald </persName><residence>Pascagoula</residence></person>
+               <person><persName>J.E. Stockstill </persName><residence>Picayune</residence></person>
+               <person><persName>R.P. Parish </persName><occupation>State Treasurer <!-- Pres. Bank of Greenwood --></occupation><residence>Greenwood</residence></person>
+               <person><persName>Ellett Lawrence </persName><occupation>Finance Chairman</occupation><residence>Greenwood</residence></person>
+               <person><persName>Robert B. Patterson </persName><occupation>Executive Secretary</occupation><residence>Greenwood</residence></person>
+               <person><persName>W. J. Simmons </persName><occupation>Administrator</occupation><residence>1014 Plaza Building Jackson</residence></person>
+               <person><persName>Mrs. Sara McCorkle </persName><occupation>Women's Divison</occupation><residence>Greenwood</residence></person>      
+            </listPerson></div>
+      </front>
       <body>
          <p>The fourth anniversary of the birth of your Citizens' Council movement-was quietly observed on July 11, 1958. It is fitting that those of us who have taken part in the resistance movement against forced integration look back over the past four years and make an appraisal of the situation then and the situation now.</p>
          <p>How successful have our efforts been, combined with those of many thousands of other patriotic Americans?</p>
@@ -29,13 +68,13 @@
          <p>"Segregationists in the Deep South have won the first round against racial intermixture in the public schools."...."The South has built a strong set of obstacles blocking the road to future integration. Here is the fruit of the segregationists' energetic and skillful work:</p>
          <p>1. THE principle of uncompromising segregation has been made to reign without effective challenge in state and local politics. With exceptions interesting only as curiosities, Deep South politicians do not and cannot breathe a public word to the contrary.</p>
          <p>2. MODERATES-those who oppose overnight and large-scale school integration but who nevertheless believe that some steps should be taken in the next few years leading to admission of some Negro students to hitherto white schools-have been placed on the defensive, so much so that they are scarcely to be heard in public. There is almost no debate. Only rarely is there a white voice raised in the press. the pulpit and the universities suggesting some forthright movement toward desegregation.
-And needless to say, the white man who spe'aks out directly for prompt integration is virtually a sideshow freak. </p>
+            And needless to say, the white man who spe'aks out directly for prompt integration is virtually a sideshow freak. </p>
          <!--Not sure what this is- it's like a sub heading in the list--><p>HOLD COMMUNITY REINS </p>
          <p>3. AT LEAST in its outward forms, leadership of community institutions such as state and local offices, the press, the church and the civic, welfare, service and social organizations is predominantly in the hands of the unyiellding segregationists. </p>
          <p>4. THE movement which had taken place since World War II toward interracial cooperation and toward some kinds of integration has been brought almost to a halt .... </p>
          <p>5. THE phrase of the "Liberal Underground"-a name wryly bestowed upon themselves by those who would like to see prompt movement toward compliance is that "the channels of communication are down." .. People of differing views on the race issue simply don't discuss them with each other, much less publicly debate them. </p>
          <p>6. THE Supreme Court decision has been repainted to appear as an order for instant and complete school integration, everywhere, in every school, in massive amount. When the white South now says, as it does with virtual unanimity. "It can't be done/' the "it" is automatically understood as
-meaning a Supreme Court decision for immediate and fullscale -intetmixtlrre of white and Negro students....</p>
+            meaning a Supreme Court decision for immediate and fullscale -intetmixtlrre of white and Negro students....</p>
          <!-- This is like a sub heading in the list --><p>A SPREADING CONCEPT </p>
          <p>SIGNIFICANTLY, that view of what "it" means appears to have been made into the dominant image in the rest of the Nation, too.</p>
          <p>The importance of that conception, of course, is that once it has been embraced, consciously or subconsciously, as what the Supreme Court ordered, the Southern position of "It can't be done" has to be conceded.. For good reasons or for bad ones, large scale integration of all Southern elementary and high schools seems, to almost all observers, Northern or Southern, as out of the question in the immediate future. </p>
@@ -55,24 +94,24 @@ meaning a Supreme Court decision for immediate and fullscale -intetmixtlrre of w
          <div type="article"> 
             <head>Remember Little Rock</head>
             <p>The greatest encounter between the constitutional rights of the people and the states vs. the usurped powers by the Federal Government occurred at Little Rock. "Remember Little Rock" is the battle cry for people who believe it is their sacred right to' educate their children in their own way without interference from politically motivated federal sources who know little of local conditions. Because of what happened
-in Little Rock, Americans everywhere were made aware of the vicious determination of the so-called "liberal minority groups" in their obsession to force their will upon those who differ. The entire nation owes a debt of gratitude to the patriotic citizens of Little Rock, who refused to bow to the
-tyranny of forced integration. </p> </div>
-       <div type="article">
-          <head>NEITHER SUDDENLY NOR GRADUALLY</head>
-        <p>The danger of sudden integration may have passed, but there is great danger, now that the frontal attack by the mongrelizer s failed that the will resort to "infiltration" and "gradualism." </p>
-         <p>Southern observers who have watched neighborhood integration in the North now realize that "Being a little bit integrated is like being a little bit pregnant." There is no such thing as being a little bit integrated. Our Northern friends are horrified to find that their original concession to "a little integration" has inevitably forced them to' give up their homes and flee to the suburbs. The flight continues, and where it will stop no one knows. </p> </div>
+               in Little Rock, Americans everywhere were made aware of the vicious determination of the so-called "liberal minority groups" in their obsession to force their will upon those who differ. The entire nation owes a debt of gratitude to the patriotic citizens of Little Rock, who refused to bow to the
+               tyranny of forced integration. </p> </div>
+         <div type="article">
+            <head>NEITHER SUDDENLY NOR GRADUALLY</head>
+            <p>The danger of sudden integration may have passed, but there is great danger, now that the frontal attack by the mongrelizer s failed that the will resort to "infiltration" and "gradualism." </p>
+            <p>Southern observers who have watched neighborhood integration in the North now realize that "Being a little bit integrated is like being a little bit pregnant." There is no such thing as being a little bit integrated. Our Northern friends are horrified to find that their original concession to "a little integration" has inevitably forced them to' give up their homes and flee to the suburbs. The flight continues, and where it will stop no one knows. </p> </div>
          <div type="article"> 
             <head>MIGRATION</head>
-         <p>For economic and other reasons, brought about by selfish politicians and misinformed "do-gooders," the Negro" migration to the North has increased and will continue to increase. The end result of this migration will help our cause, but we feel for our Northern white citizens. Already in many Northern sections innocent white people are being forced to suffer a second "reconstruction" such as our ancestors suffered eighty-five years ago. This is tragic. History proves, however, that the masses of people have never reacted to logic and common sense, but only to chaos and bitter experience. The best cure for "integration and Negro domination" is "integration and Negro domination," although it is a painful one that leaves many permanent scars. In many areas "the situation will have to get worse before it gets better."</p>
+            <p>For economic and other reasons, brought about by selfish politicians and misinformed "do-gooders," the Negro" migration to the North has increased and will continue to increase. The end result of this migration will help our cause, but we feel for our Northern white citizens. Already in many Northern sections innocent white people are being forced to suffer a second "reconstruction" such as our ancestors suffered eighty-five years ago. This is tragic. History proves, however, that the masses of people have never reacted to logic and common sense, but only to chaos and bitter experience. The best cure for "integration and Negro domination" is "integration and Negro domination," although it is a painful one that leaves many permanent scars. In many areas "the situation will have to get worse before it gets better."</p>
          </div>
          <div type="article"> 
-         <head> RACIAL SEPARATION </head>
-         <p> The South respectfully submits that the best method by which the two races can occupy the same geographical area with a minimum of racial conflict is through the time honored and history proven expedient which is called "segregation." </p>
+            <head> RACIAL SEPARATION </head>
+            <p> The South respectfully submits that the best method by which the two races can occupy the same geographical area with a minimum of racial conflict is through the time honored and history proven expedient which is called "segregation." </p>
          </div>
          <!-- THis is a different heading than my other div articles <div type="article">
             <head>THE ROAD AHEAD</head> -->
          <div type="article"> 
-         <head>ORGANIZATION</head>
+            <head>ORGANIZATION</head>
             <p> The only method by which racial separation can be continued is through local, state and natiQnal organization, in order that the many powerful organizations which seek mongrelization can be counteracted. Many organizations dedicated to racial separation have started in the North and West, and there will be many more in the years ahead. Many of these organizations are not called "Citizens' Councils," but "a rose by any other name would smell as sweet," and their purpose is basically the same as ours.</p>
          </div>
          <div type="article">
@@ -83,7 +122,7 @@ tyranny of forced integration. </p> </div>
             <head>OUR EXECUTIVE COMMITTEE </head>
             <p>Listed on page 1 are the members of our Executive Committee. Four Executive Committeemen are elected to serve from each one of our six Congressional Districts. This election is held at the annual district meeting of county chairmen in each district. These are the men who set the policy and direct our State Association. Your State Executive Committee meets the third Thursday in each month, in Jackson, Mississippi, at one of the hotels there. It is always a dutch luncheon meeting. This group provides the personal contact necessary so that your Association will be truly representative of the local Citizens' Councils in the state. We ask that you note the name of your Executive Committeeman, so that you can get in touch with him at any time. </p>
             <p>We have urged the board of directors of each local organization to hold a similar monthly meeting. The holding of these regular meetings provides a constant, competent body to deal with any local problems that may arise, and has led in every case to a strong local organization. </p>
-        </div>
+         </div>
          <div type="article">
             <head>OUR EDUCATIONAL PROGRAM </head>
             <p>Your State Executive Committee has engaged an outstanding lady, Mrs. Sara McCorkle, to direct Women's activities in connection with the Citizens' Council movement throughout the state, and to direct the Citizens' Council educational program for the youth of Mississippi. Mrs. McCorkle has made many talks to various Civic organizations throughout the state and to many ladies' organizations. She assists the local Citizens' Councils in carrying on educational programs for the young people in the community, in giving the facts concerning race and the reasons for the South's policy of racial separation. She directs our annual essay contest among high school students. </p>
@@ -91,7 +130,7 @@ tyranny of forced integration. </p> </div>
          <div type="article">
             <head>THE CITIZENS' COUNCIL FORUM </head>
             <p>We now have the Citizens' Council Forum television program in nine Southern states, on at least seventeen different stations, and we have the Citizens' Council Forum radio programs on more than one hundred radio stations throughout the South. The idea is to inform our people, here in the
-South, as to the true facts concerning "integration" and to present the South's case to the nation. As soon as possible, we intend to expand this program to cover the entire nation. Bill Simmons, as the producer of these programs, is doing a magnificent job. He maintains a complete staff at our Jackson office in the Plaza Building</p>
+               South, as to the true facts concerning "integration" and to present the South's case to the nation. As soon as possible, we intend to expand this program to cover the entire nation. Bill Simmons, as the producer of these programs, is doing a magnificent job. He maintains a complete staff at our Jackson office in the Plaza Building</p>
          </div>
          <div type="article">
             <head>OUR OWN NEWSPAPER </head>
@@ -151,7 +190,15 @@ South, as to the true facts concerning "integration" and to present the South's 
                upon us, but who are willing to sell us out to the mongrelizers.
                Integrationists who live among us are much more dangerous
                to our cause than those who live in New York or Illinois. </p>
+            <div type="list">
+               <head>Publications <lb/>All Literature Postpaid <lb/> Pamphlets</head>
+               <list>
+                  <item>
+                     <title></title> By <name></name>
+                  </item>
+               </list>
+            </div>
          </div>
       </body>
-  </text>
+   </text>
 </TEI>
