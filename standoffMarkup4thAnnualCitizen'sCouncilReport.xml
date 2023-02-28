@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Standoff Markup for 4th Annual Citizen's Council Report</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Encoded for Digital Humanities 630 Spring 2023, Texas A and M University</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Association of Citizens' Councils of Mississippi, "Association of Citizens' Council of Mississippi, 4th
+               Annual Report" (1958). Pamphlets and Broadsides. 6.
+               https://egrove.olemiss.edu/citizens_pamph/6  University of Mississippi, eGrove</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   <standOff>
+      <listPerson>
+         <person xml:id="person001">
+            <persName>J.O. Sams</persName><residence>Columbus</residence> 
+         </person>
+         <person xml:id="person002">
+            <persName>John B. Cunningham </persName><residence>Brooksville</residence>
+         </person>
+         <person xml:id="person003">
+            <persName>N.E. Dacus </persName><residence>Tupelo</residence>
+         </person>
+         <person xml:id="person004">
+            <persName>Shelby Woodward </persName><residence>Louisville</residence>
+         </person>
+         <person xml:id="person005">
+            <persName>Z.M. Veazey, Jr. </persName><residence>Coldwater</residence>
+         </person>
+         <person xml:id="person006">
+            <persName>W.H. Anderson </persName><residence>Ripley</residence>
+         </person>
+         <person xml:id="person007">
+            <persName>Ben Jack Hilbun </persName><residence>Oxford</residence>
+         </person>
+         <person xml:id="person008">
+            <persName>John Tabor </persName><residence>Winona</residence>
+         </person>
+         <person xml:id="person009">
+            <persName>A.E. Britt </persName><residence>Indianola</residence>
+         </person>
+         <person xml:id="person010">
+            <persName>Wilburn Hooker </persName><residence>Lexington</residence>
+         </person>
+         <person xml:id="person011">
+            <persName>Fred Jones </persName><residence>Inverness</residence>
+         </person>
+         <person xml:id="person012">
+            <persName>Pete Williams, Sr. </persName><residence>Clarksdale</residence>
+         </person>
+         <person xml:id="person013">
+            <persName>Tom P. Brady </persName><residence>Brookhaven</residence>
+         </person>
+         <person xml:id="person014">
+            <persName>Albert Gardner </persName><residence>Yazzo City</residence>
+         </person>
+         <person xml:id="person015">
+            <persName>Clay Tucker </persName><residence>Woodville</residence>
+         </person>
+         <person xml:id="person016">
+            <persName>Ellis W. Wright </persName><residence>Jackson</residence>
+         </person>
+         <person xml:id="person017">
+            <persName>W.H. Johnson, Jr. </persName><residence>Decatur</residence>
+         </person>
+         <person xml:id="person018">
+            <persName>R.C. Bradshaw </persName><residence>Pearl</residence>
+         </person>
+         <person xml:id="person019">
+            <persName>H.H. Harpole </persName><residence>Philadelphia</residence>
+         </person>
+          <person xml:id="person020">
+             <persName>Marion Simpson </persName><residence>Canton</residence>
+         </person>
+         <person xml:id="person021">
+            <persName>Dewey Myers </persName><residence>Prentiss</residence>
+         </person>
+         <person xml:id="person022">
+            <persName>Ward Hurt </persName><residence>Lumberton</residence>
+         </person>
+         <person xml:id="person023">
+            <persName>Robert Oswald </persName><residence>Pascagoula</residence>
+         </person>
+         <person xml:id="person024">
+            <persName>J.E. Stockstill </persName><residence>Picayune</residence>
+         </person>
+         <person xml:id="person025">
+            <persName>R.P. Parish </persName><occupation>State Treasurer <!-- Pres. Bank of Greenwood --></occupation><residence>Greenwood</residence>
+         </person>
+         <person xml:id="person026">
+            <persName>Ellett Lawrence </persName><occupation>Finance Chairman</occupation><residence>Greenwood</residence>
+         </person>
+         <person xml:id="person027">
+            <persName>Robert B. Patterson </persName><occupation>Executive Secretary</occupation><residence>Greenwood</residence></person>     
+         <person xml:id="person028">
+            <persName>W. J. Simmons </persName><occupation>Administrator</occupation><residence>1014 Plaza Building Jackson</residence>
+         </person>
+         <person xml:id="person029">
+            <persName>Mrs. Sara McCorkle </persName><occupation>Women's Divison</occupation><residence>Greenwood</residence>
+         </person>
+         <person xml:id="person030">
+            <persName>Issac Toubin</persName><residence>New York</residence><occupation>Executive Director of the American Jewish Congress</occupation>
+         </person>
+         <person xml:id="person031">
+            <persName>Bill Simmons</persName><occupation>Director of Citizens'Council Forum</occupation>
+         </person>
+         <person xml:id="person032">
+            <persName>James F. Byrnes</persName><occupation>author</occupation>
+         </person>
+         <person xml:id="person033">
+            <persName>Rev. Guy T. Gillespie</persName><occupation>author</occupation>
+         </person>
+         <person xml:id="person034">
+            <persName>Atty. Gen. Eugene Cook</persName><occupation>author</occupation>
+         </person>
+         <person xml:id="person035">
+            <persName>Senator James O. Eastland</persName>
+         </person>
+         <person xml:id="person036">
+            <persName>Congressman John Bell Williams</persName>
+         </person>
+         <person xml:id="person037">
+            <persName>Herbert Ravenel Sass</persName>
+         </person>
+         <person xml:id="person038">
+            <persName>John Bartlow Martin</persName>
+         </person>
+         <person xml:id="person039">
+            <persName>Claude G. Bowers</persName>
+         </person>
+         <person xml:id="person040">
+            <persName>Herman E. Talmadge</persName>
+         </person>
+         <person xml:id="person041">
+            <persName>Byram Campbell</persName>
+         </person>
+         <person xml:id="person042">
+            <persName>Theodore Bilbo</persName>
+         </person>
+         <person xml:id="person043">
+            <persName>Miss Louise Lacy</persName>
+         </person>
+         <person xml:id="person044">
+            <persName>Stuart O. Landry</persName>
+         </person>
+         <person xml:id="person045">
+            <persName>Earnest Sevier Cox</persName>
+         </person>
+         <person xml:id="person046">
+            <persName>James J. Kilpatrick</persName>
+         </person>
+   
+         <!-- etc.-->
+      </listPerson>
+      <listPlace>
+         <place xml:id="place001">
+            <placeName></placeName>
+         </place>
+         <!-- etc.-->
+      </listPlace>
+      <listOrg>
+         <org xml:id="org001">
+            <orgName></orgName>
+         </org>
+         <!-- etc.-->
+      </listOrg>
+   </standOff>
+</TEI>

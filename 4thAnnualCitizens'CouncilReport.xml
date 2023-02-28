@@ -10,7 +10,7 @@
             <author>Association of Citizens' Councils of Mississippi</author><respStmt><resp>Editor</resp> <name>Margaret Gregory</name></respStmt>
          </titleStmt>
          <publicationStmt>
-            <p> Encoded for Digital Humanities 630 Spring 2023, Texas A and M University</p>
+            <p>Encoded for Digital Humanities 630 Spring 2023, Texas A and M University</p>
          </publicationStmt>
          <sourceDesc>
             <p>Association of Citizens' Councils of Mississippi, "Association of Citizens' Council of Mississippi, 4th
@@ -30,35 +30,35 @@
          <!-- State Executive Committee and Officers -->
          <div type="officers">
             <listPerson>
-               <person><persName>J.O. Sams</persName><residence>Columbus</residence></person>
-               <person><persName>John B. Cunningham </persName><residence>Brooksville</residence></person>
-               <person><persName>N.E. Dacus </persName><residence>Tupelo</residence></person>
-               <person><persName>Shelby Woodward </persName><residence>Louisville</residence></person>
-               <person><persName>Z.M. Veazey, Jr. </persName><residence>Coldwater</residence></person>
-               <person><persName>W.H. Anderson </persName><residence>Ripley</residence></person>
-               <person><persName>Ben Jack Hilbun </persName><residence>Oxford</residence></person>
-               <person><persName>John Tabor </persName><residence>Winona</residence></person>
-               <person><persName>A.E. Britt </persName><residence>Indianola</residence></person>
-               <person><persName>Wilburn Hooker </persName><residence>Lexington</residence></person>
-               <person><persName>Fred Jones </persName><residence>Inverness</residence></person>
-               <person><persName>Pete Williams, Sr. </persName><residence>Clarksdale</residence></person>
-               <person><persName>Tom P. Brady </persName><residence>Brookhaven</residence></person>
-               <person><persName>Albert Gardner </persName><residence>Yazzo City</residence></person>
-               <person><persName>Clay Tucker </persName><residence>Woodville</residence></person>
-               <person><persName>Ellis W. Wright </persName><residence>Jackson</residence></person>
-               <person><persName>W.H. Johnson, Jr. </persName><residence>Decatur</residence></person>
-               <person><persName>R.C. Bradshaw </persName><residence>Pearl</residence></person>
-               <person><persName>H.H. Harpole </persName><residence>Philadelphia</residence></person>
-               <person><persName>Marion Simpson </persName><residence>Canton</residence></person>
-               <person><persName>Dewey Myers </persName><residence>Prentiss</residence></person>
-               <person><persName>Ward Hurt </persName><residence>Lumberton</residence></person>
-               <person><persName>Robert Oswald </persName><residence>Pascagoula</residence></person>
-               <person><persName>J.E. Stockstill </persName><residence>Picayune</residence></person>
-               <person><persName>R.P. Parish </persName><occupation>State Treasurer <!-- Pres. Bank of Greenwood --></occupation><residence>Greenwood</residence></person>
-               <person><persName>Ellett Lawrence </persName><occupation>Finance Chairman</occupation><residence>Greenwood</residence></person>
-               <person><persName>Robert B. Patterson </persName><occupation>Executive Secretary</occupation><residence>Greenwood</residence></person>
-               <person><persName>W. J. Simmons </persName><occupation>Administrator</occupation><residence>1014 Plaza Building Jackson</residence></person>
-               <person><persName>Mrs. Sara McCorkle </persName><occupation>Women's Divison</occupation><residence>Greenwood</residence></person>      
+               <person><persName ref="#person001">J.O. Sams</persName><residence>Columbus</residence></person>
+               <person><persName ref="#person002">John B. Cunningham </persName><residence>Brooksville</residence></person>
+               <person><persName ref="#person003">N.E. Dacus </persName><residence>Tupelo</residence></person>
+               <person><persName ref="#person004">Shelby Woodward </persName><residence>Louisville</residence></person>
+               <person><persName ref="#person005">Z.M. Veazey, Jr. </persName><residence>Coldwater</residence></person>
+               <person><persName ref="#person006">W.H. Anderson </persName><residence>Ripley</residence></person>
+               <person><persName ref="#person007">Ben Jack Hilbun </persName><residence>Oxford</residence></person>
+               <person><persName ref="#person008">John Tabor </persName><residence>Winona</residence></person>
+               <person><persName ref="#person009">A.E. Britt </persName><residence>Indianola</residence></person>
+               <person><persName ref="#person010">Wilburn Hooker </persName><residence>Lexington</residence></person>
+               <person><persName ref="#person011">Fred Jones </persName><residence>Inverness</residence></person>
+               <person><persName ref="#person012">Pete Williams, Sr. </persName><residence>Clarksdale</residence></person>
+               <person><persName ref="#person013">Tom P. Brady </persName><residence>Brookhaven</residence></person>
+               <person><persName ref="#person014">Albert Gardner </persName><residence>Yazzo City</residence></person>
+               <person><persName ref="#person015">Clay Tucker </persName><residence>Woodville</residence></person>
+               <person><persName ref="#person016">Ellis W. Wright </persName><residence>Jackson</residence></person>
+               <person><persName ref="#person017">W.H. Johnson, Jr. </persName><residence>Decatur</residence></person>
+               <person><persName ref="#person018">R.C. Bradshaw </persName><residence>Pearl</residence></person>
+               <person><persName ref="#person019">H.H. Harpole </persName><residence>Philadelphia</residence></person>
+               <person><persName ref="#person020">Marion Simpson </persName><residence>Canton</residence></person>
+               <person><persName ref="#person021">Dewey Myers </persName><residence>Prentiss</residence></person>
+               <person><persName ref="#person022">Ward Hurt </persName><residence>Lumberton</residence></person>
+               <person><persName ref="#person023">Robert Oswald </persName><residence>Pascagoula</residence></person>
+               <person><persName ref="#person024">J.E. Stockstill </persName><residence>Picayune</residence></person>
+               <person><persName ref="#person025">R.P. Parish </persName><occupation>State Treasurer <!-- Pres. Bank of Greenwood --></occupation><residence>Greenwood</residence></person>
+               <person><persName ref="#person026">Ellett Lawrence </persName><occupation>Finance Chairman</occupation><residence>Greenwood</residence></person>
+               <person><persName ref="#person027">Robert B. Patterson </persName><occupation>Executive Secretary</occupation><residence>Greenwood</residence></person>
+               <person><persName ref="#person028">W. J. Simmons </persName><occupation>Administrator</occupation><residence>1014 Plaza Building Jackson</residence></person>
+               <person><persName ref="#person029">Mrs. Sara McCorkle </persName><occupation>Women's Divison</occupation><residence>Greenwood</residence></person>      
             </listPerson></div>
       </front>
       <body>
@@ -86,7 +86,7 @@
          <p>From the Saturday Evening Post, <date>June 15, 1957.</date> Article entitled "The Deep South Says Never." The first of a series of five. </p>
          <p>...."Thus was formed the first Citizens' Council, a movement that in a few months swept the South and gave loud voice to the Southern resistance to school desegregation.</p>
          <p>At that time desegregation seemed inevitable and not far off. Today, in the Deep South, it seems unlikely in the foreseeable future. At that time the South was divided, perplexed, resigned. Today the Solid South is a fact, and its resistance to desegregation is granitic. Let us study the remarkable achievement of a resistance movement that has uncompromisingly set its face against the mainstream of American thought as expressed by the Supreme Court of the land - and has thus far got away with it." </p>
-         <p><persName>Issac Toubin</persName>, of<placeName>New York</placeName>, Executive Director of the American Jewish Congress said at Miami Beach in <date>May of 1958,</date></p>
+         <p><persName ref="#person030">Issac Toubin</persName>, of<placeName>New York</placeName>, Executive Director of the American Jewish Congress said at Miami Beach in <date>May of 1958,</date></p>
          <p>"We must face the fact that there is a real possibility of ultimate defeat in the struggle to end racial segregation. The proponents of m'usive resistance in :the South are not fighting for delay or moderation. Their aim is reversal in law, or nullification in fact, of the Supreme Court's decision." </p>
          <p>You who have been members and friends of the resistance movement know what you have done. You know what your local organization has done, and you have a good idea of what your State Association, and also the nation wide organization known as ''The Citizens' Councils of America," has accomplished. </p>
          <p>YOU realize that the Citizens' Council Organization was the rallying point for popular resistance to the unconstitutional "integration" decision of the Supreme Court. You have seen resistance grow from timid faltering efforts on the part of a few individuals to "massive" resistance with the full power of the state governments taking constitutional action towards protecting their people and their schools from destruction. Often, for the individual member, "it is hard to see the forest for the trees." It is hard to picture yourself as an important cog in this gigantic movement, but without you the movement cannot succeed. </p>
@@ -125,17 +125,17 @@
          </div>
          <div type="article">
             <head>OUR EDUCATIONAL PROGRAM </head>
-            <p>Your State Executive Committee has engaged an outstanding lady, <persName>Mrs. Sara McCorkle</persName>, to direct Women's activities in connection with the Citizens' Council movement throughout the state, and to direct the <affiliation>Citizens' Council educational program</affiliation> for the youth of <placeName>Mississippi</placeName>. <persName>Mrs. McCorkle</persName> has made many talks to various Civic organizations throughout the state and to many ladies' organizations. She assists the local Citizens' Councils in carrying on educational programs for the young people in the community, in giving the facts concerning race and the reasons for the South's policy of racial separation. She directs our annual essay contest among high school students. </p>
+            <p>Your State Executive Committee has engaged an outstanding lady, <persName ref="#person029">Mrs. Sara McCorkle</persName>, to direct Women's activities in connection with the Citizens' Council movement throughout the state, and to direct the <affiliation>Citizens' Council educational program</affiliation> for the youth of <placeName>Mississippi</placeName>. <persName ref="#person029">Mrs. McCorkle</persName> has made many talks to various Civic organizations throughout the state and to many ladies' organizations. She assists the local Citizens' Councils in carrying on educational programs for the young people in the community, in giving the facts concerning race and the reasons for the South's policy of racial separation. She directs our annual essay contest among high school students. </p>
          </div>
          <div type="article">
             <head>THE CITIZENS' COUNCIL FORUM </head>
             <p>We now have the Citizens' Council Forum television program in nine Southern states, on at least seventeen different stations, and we have the Citizens' Council Forum radio programs on more than one hundred radio stations throughout the South. The idea is to inform our people, here in the
-               South, as to the true facts concerning "integration" and to present the South's case to the nation. As soon as possible, we intend to expand this program to cover the entire nation. <persName>Bill Simmons</persName>, as the producer of these programs, is doing a magnificent job. He maintains a complete staff at our <placeName>Jackson</placeName> office in the Plaza Building</p>
+               South, as to the true facts concerning "integration" and to present the South's case to the nation. As soon as possible, we intend to expand this program to cover the entire nation. <persName ref="#person031">Bill Simmons</persName>, as the producer of these programs, is doing a magnificent job. He maintains a complete staff at our <placeName>Jackson</placeName> office in the Plaza Building</p>
          </div>
          <div type="article">
             <head>OUR OWN NEWSPAPER </head>
             <p>Since October, 1955, we have been publishing our own monthly newspaper, which acts as the official organ for the Citizens' Councils of America movement. We have never missed an issue, and we urge the local organizations to subscribe for each member, so that the local membership will have an idea about what is going on state wide and nationally. </p>
-            <p>We have found that the most economical means of keeping our members informed and of penetrating the paper curtain which in the past has' kept the truth from the public is through this fine publication. All of us are proud of the fine job that <persName>Bill Simmons</persName> has done as editor of our official organ. </p>
+            <p>We have found that the most economical means of keeping our members informed and of penetrating the paper curtain which in the past has' kept the truth from the public is through this fine publication. All of us are proud of the fine job that <persName ref="#person031">Bill Simmons</persName> has done as editor of our official organ. </p>
             <p>Local Councils that have subscribed to our newspaper for each of their members find that they are well informed and are kept interested in this movement. Our members in Mississippi are urged to mail their copies of the newspaper to friends and relatives in the North after they have read it each month. </p>
             <p>We certainly hope that next year each Council will subscribe to our newspaper for each of its members. The subscription price has been set at $1.00 per year for members in lots of 50 or more subscriptions, the lowest figure ossible, since no advertising is accepted. For single subscribers the subscription price is $2.00 per year. </p>
             <p>If preferred, you may send your subscription direct to The Citizens' Council, <placeName>1014 Plaza Building, Jackson, Miss.</placeName> </p>
@@ -151,7 +151,7 @@
             <head>THE CITIZENS' COUNCILS OF AMERICA</head>
             <p>The Citizens' Councils of America was organized in <placeName>New Orleans</placeName> in <date>January, 1956 </date>, with individuals from eleven Southern States participating. It has held regular semi-annual meetings each year since that time</p>
             <p>We believe that this organization will continue to serve as an effective coordinating agency and information center for the various state groups. Our office in Greenwood is the national administrative headquarters. </p>
-            <p><persName>ROBERT B. PATTERSON,</persName> Executive Secretary </p> <!-- MARKUP HIS  TITLE -->
+            <p><persName ref="#person027">ROBERT B. PATTERSON,</persName> Executive Secretary </p> 
          </div>
          <div type="article">
             <head>WHAT YOU CAN DO AS AN INDIVIDUAL</head>
@@ -189,11 +189,11 @@ this manner a mobilized public opinion may express itself from every direction a
                <head>Publications <lb/>All Literature Postpaid <lb/> Pamphlets</head>
                <list>
                   <item>
-                     <title>The Supreme Court Must Be Curbed</title> By <name><persName>James F. Byrnes</persName></name>
+                     <title>The Supreme Court Must Be Curbed</title> By <name><persName ref="#person032">James F. Byrnes</persName></name>
                   </item>
-                  <item><title>A Christian View on Segregation</title> By <name><persName>Rev. Guy T. Gillespie</persName></name></item>  
-                  <item><title>The Ugly Truth About the NAACP</title> By <name><persName>Atty. Gen. Eugene Cook</persName></name></item>
-                  <item><title>We've Reached Era of Judicuial Tyranny</title> By <name><persName>Senator James O. Eastland</persName></name></item>                 <item><title>The Citizens' Council</title> By <name><persName>R. B. Patterson</persName></name></item>                 <item><title>A Jewish View on Segregation</title> By <name>Anonymous</name></item>                 <item><title>Segregation and the SOuth</title> By <name><persName>Judge Tom P. Brady</persName></name></item>                 <item><title>The Mid-West Hears the South's Story</title> By <name><persName>W. J. Simmons</persName></name></item>                 <item><title>Congressional Committee Report on What Happened when Schools were Integrated in Washington D. C.</title> From <name>Congressional Record</name></item>                 <item><title>Where is the Reign of Terror?</title> By <name><persName>Congressman John Bell Williams</persName></name></item>                 <item><title>Mixed School and Mixed Blood</title> By <name><persName>Herbert Ravenel Sass</persName></name></item>                   <item><title>The Educational Fund of the Citizens' Council</title> By <name><persName>Ellett Lawrence</persName></name></item>  
+                  <item><title>A Christian View on Segregation</title> By <name><persName ref="#person033">Rev. Guy T. Gillespie</persName></name></item>  
+                  <item><title>The Ugly Truth About the NAACP</title> By <name><persName ref="#person034">Atty. Gen. Eugene Cook</persName></name></item>
+                  <item><title>We've Reached Era of Judicuial Tyranny</title> By <name><persName ref="#person035">Senator James O. Eastland</persName></name></item>                 <item><title>The Citizens' Council</title> By <name><persName ref="#person027">R. B. Patterson</persName></name></item>                 <item><title>A Jewish View on Segregation</title> By <name>Anonymous</name></item>                 <item><title>Segregation and the SOuth</title> By <name><persName ref="#person013">Judge Tom P. Brady</persName></name></item>                 <item><title>The Mid-West Hears the South's Story</title> By <name><persName ref="#person028">W. J. Simmons</persName></name></item>                 <item><title>Congressional Committee Report on What Happened when Schools were Integrated in Washington D. C.</title> From <name>Congressional Record</name></item>                 <item><title>Where is the Reign of Terror?</title> By <name><persName ref="#person036">Congressman John Bell Williams</persName></name></item>                 <item><title>Mixed School and Mixed Blood</title> By <name><persName ref="#person037">Herbert Ravenel Sass</persName></name></item>                   <item><title>The Educational Fund of the Citizens' Council</title> By <name><persName ref="#person026">Ellett Lawrence</persName></name></item>  
                   <item><title>Second Annual Report</title> <name>Detailed organizational plan</name></item>     
                </list>
             </div>
@@ -209,20 +209,20 @@ this manner a mobilized public opinion may express itself from every direction a
             <div type="list">
                <head>Books</head>
                <list>
-               <item><title>Black Monday</title> By <name><persName>Judge Tom P. Brady</persName></name><measure type="price">$1.00</measure></item> 
-                  <item><title>The Deep South Says Never</title> (paperback edition) by <name><persName>John Bartlow Martin</persName></name><measure type="price">.35</measure></item> </list>
+               <item><title>Black Monday</title> By <name><persName ref="#person013">Judge Tom P. Brady</persName></name><measure type="price">$1.00</measure></item> 
+                  <item><title>The Deep South Says Never</title> (paperback edition) by <name><persName ref="#person038">John Bartlow Martin</persName></name><measure type="price">.35</measure></item> </list>
                <div type="part"><p> The above may be had by writing the Citizens' Council, <placeName>207 West Market Street, Greenwood, Mississippi.</placeName> See that your public and school libraries obtain these books. </p></div>              
             </div>
             <div type="list">
                <head>Other Books</head>
                <list>
-                  <item><title>The Tragic Era</title> by <name><persName>Claude G. Bowers</persName></name> <measure type="price">$5.00</measure><name>Houghton Mifflin Company</name><name>The Riverside Press</name><placeName>Cambridge, Massachusetts</placeName></item>    
-                  <item><title>You and Segregation</title> by <name><persName>Herman E. Talmadge</persName></name> <measure type="price">$1.00</measure><name>Vulcan Press, Incorporated</name><placeName>401 Fourth Street, S. W. Birmingham, Alabama</placeName></item> 
-                  <item><title>American Race Theories</title> by <name><persName>Byram Campbell</persName></name> <measure type="price">$3.50</measure><name>Chapman and Grimes, Inc.</name><placeName>Boston, Massachusetts</placeName></item> 
-                  <item><title>Take Your Choice</title> by <name><persName>Theodore Bilbo</persName></name> <measure type="price">$3.00</measure><name><!-- unsure if this is a person, it looks like it, but her name is where the other publishers are. -->Miss Louise Lacy</name><placeName>P.O. Box 1435, Jackson, Mississippi</placeName></item> 
-                  <item><title>The Cult of Equality</title> by <name><persName>Stuart O. Landry</persName></name><measure type="price">$3.50</measure><name><persName>Mr. Stuart O. Landry</persName></name><placeName>305 Chartres Street, New Orleans, Louisiana</placeName></item> 
-                  <item><title>White America</title> by <name><persName>Earnest Sevier Cox</persName></name> <measure type="price">$2.00</measure><name> <persName>Mr. Earnest Sevier Cox</persName></name><placeName>P.O. Box 116 Richmond, Virginia</placeName></item>
-                  <item><title>The Sovereign States</title> by <name><persName>James J. Kilpatrick</persName></name> <measure type="price">$5.00</measure><name>The Henry Regnery Company</name><placeName>64 East Jackson Boulevard. Chicago Illinois</placeName></item> 
+                  <item><title>The Tragic Era</title> by <name><persName ref="#person039">Claude G. Bowers</persName></name> <measure type="price">$5.00</measure><name>Houghton Mifflin Company</name><name>The Riverside Press</name><placeName>Cambridge, Massachusetts</placeName></item>    
+                  <item><title>You and Segregation</title> by <name><persName ref="#person040">Herman E. Talmadge</persName></name> <measure type="price">$1.00</measure><name>Vulcan Press, Incorporated</name><placeName>401 Fourth Street, S. W. Birmingham, Alabama</placeName></item> 
+                  <item><title>American Race Theories</title> by <name><persName ref="#person041">Byram Campbell</persName></name> <measure type="price">$3.50</measure><name>Chapman and Grimes, Inc.</name><placeName>Boston, Massachusetts</placeName></item> 
+                  <item><title>Take Your Choice</title> by <name><persName ref="#person042">Theodore Bilbo</persName></name> <measure type="price">$3.00</measure><name><!-- unsure if this is a person, it looks like it, but her name is where the other publishers are. --><persName ref="#person043">Miss Louise Lacy</persName></name><placeName>P.O. Box 1435, Jackson, Mississippi</placeName></item> 
+                  <item><title>The Cult of Equality</title> by <name><persName ref="#person044">Stuart O. Landry</persName></name><measure type="price">$3.50</measure><name><persName ref="#person044">Mr. Stuart O. Landry</persName></name><placeName>305 Chartres Street, New Orleans, Louisiana</placeName></item> 
+                  <item><title>White America</title> by <name><persName ref="#person045">Earnest Sevier Cox</persName></name> <measure type="price">$2.00</measure><name> <persName ref="#person045">Mr. Earnest Sevier Cox</persName></name><placeName>P.O. Box 116 Richmond, Virginia</placeName></item>
+                  <item><title>The Sovereign States</title> by <name><persName ref="#person046">James J. Kilpatrick</persName></name> <measure type="price">$5.00</measure><name>The Henry Regnery Company</name><placeName>64 East Jackson Boulevard. Chicago Illinois</placeName></item> 
                </list>
                </div>
            <div type="article">
@@ -256,9 +256,9 @@ this manner a mobilized public opinion may express itself from every direction a
                <head>Educational Fund</head>
                <p>The Educational Fund was incorporated <date>November 15,
                   1956</date>. The reason for the Educational Fund was that we were
-                  not sure that contributions to the Citizens' Council were tax
+                  not sure that contributions to the <orgName>Citizens' Council</orgName> were tax
                   exempt. We believe that since the Educational Fund of the
-                  NAACP is tax exempt, the Educational Fund of the Citizens'
+                  <orgName>NAACP</orgName> is tax exempt, the Educational Fund of the Citizens'
                   Council is tax exempt. So far the exemption has not come
                   through, but we have had no kick backs on former deduc-
                   tions. We believe that the Internal Revenue department must
@@ -272,7 +272,7 @@ this manner a mobilized public opinion may express itself from every direction a
                   would be attractive to large contributors. So far we have had
                   only two individuals who have contributed $1,000 or more.</p>
                <p>We hope to have others.</p>
-               <p><persName>ELLETT LAWRENCE</persName>, Finance Chairman</p>     
+               <p><persName ref="#person026">ELLETT LAWRENCE</persName>, Finance Chairman</p>     
                <!-- I need to learn how to tag groups / organizations like the Citizens' Council and NAACP -->
             </div>
          </div>
