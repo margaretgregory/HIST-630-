@@ -15,4 +15,4 @@ declare context item := document {
 </book>
 };
 
-/child::book/child::publisher/child::city
+fn:concat(/book/author,"."," ",/book/title,"."," ",/book/publisher/city,":"" ",/book/publisher/press,","," ",/book/date,".")
