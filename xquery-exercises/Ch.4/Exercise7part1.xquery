@@ -55,6 +55,6 @@ declare context item := document {
 </books>
 };
 
-/books/book/fn:contains (./title, "The")
+/books/book[fn:contains (./title, "The")]
 
 
