@@ -21,93 +21,94 @@
    <standOff>
       <listPerson>
          <person xml:id="person001">
-            <persName>J.O. Sams</persName><residence>Columbus</residence> 
+            <persName>J.O. Sams</persName><residence><settlement>Columbus</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person002">
-            <persName>John B. Cunningham </persName><residence>Brooksville</residence>
+            <persName>John B. Cunningham </persName><residence><settlement>Brooksville</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person003">
-            <persName>N.E. Dacus </persName><residence>Tupelo</residence>
+            <persName>N.E. Dacus </persName><residence><settlement>Tupelo</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person004">
-            <persName>Shelby Woodward </persName><residence>Louisville</residence>
+            <persName>Shelby Woodward </persName><residence><settlement>Louisville</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person005">
-            <persName>Z.M. Veazey, Jr. </persName><residence>Coldwater</residence>
+            <persName>Z.M. Veazey, Jr. </persName><residence><settlement>Coldwater</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person006">
-            <persName>W.H. Anderson </persName><residence>Ripley</residence>
+            <persName>W.H. Anderson </persName><residence><settlement>Ripley</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person007">
-            <persName>Ben Jack Hilbun </persName><residence>Oxford</residence>
+            <persName>Ben Jack Hilbun </persName><residence><settlement>Oxford</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person008">
-            <persName>John Tabor </persName><residence>Winona</residence>
+            <persName>John Tabor </persName><residence><settlement>Winona</settlement><region>Mississippi</region>
+            </residence>
          </person>
          <person xml:id="person009">
-            <persName>A.E. Britt </persName><residence>Indianola</residence>
+            <persName>A.E. Britt </persName><residence><settlement>Indianola</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person010">
-            <persName>Wilburn Hooker </persName><residence>Lexington</residence>
+            <persName>Wilburn Hooker </persName><residence><settlement>Lexington</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person011">
-            <persName>Fred Jones </persName><residence>Inverness</residence>
+            <persName>Fred Jones </persName><residence><settlement>Inverness</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person012">
-            <persName>Pete Williams, Sr. </persName><residence>Clarksdale</residence>
+            <persName>Pete Williams, Sr. </persName><residence><settlement>Clarksdale</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person013">
-            <persName>Tom P. Brady </persName><residence>Brookhaven</residence>
+            <persName>Tom P. Brady </persName><residence><settlement>Brookhaven</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person014">
-            <persName>Albert Gardner </persName><residence>Yazzo City</residence>
+            <persName>Albert Gardner </persName><residence><settlement>Yazzo City</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person015">
-            <persName>Clay Tucker </persName><residence>Woodville</residence>
+            <persName>Clay Tucker </persName><residence><settlement>Woodville</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person016">
-            <persName>Ellis W. Wright </persName><residence>Jackson</residence>
+            <persName>Ellis W. Wright </persName><residence><settlement>Jackson</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person017">
-            <persName>W.H. Johnson, Jr. </persName><residence>Decatur</residence>
+            <persName>W.H. Johnson, Jr. </persName><residence><settlement>Decatur</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person018">
-            <persName>R.C. Bradshaw </persName><residence>Pearl</residence>
+            <persName>R.C. Bradshaw </persName><residence><settlement>Pearl</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person019">
-            <persName>H.H. Harpole </persName><residence>Philadelphia</residence>
+            <persName>H.H. Harpole </persName><residence><settlement>Philadelphia</settlement><region>Mississippi</region></residence>
          </person>
           <person xml:id="person020">
-             <persName>Marion Simpson </persName><residence>Canton</residence>
+             <persName>Marion Simpson </persName><residence><settlement>Canton</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person021">
-            <persName>Dewey Myers </persName><residence>Prentiss</residence>
+            <persName>Dewey Myers </persName><residence><settlement>Prentiss</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person022">
-            <persName>Ward Hurt </persName><residence>Lumberton</residence>
+            <persName>Ward Hurt </persName><residence><settlement>Lumberton</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person023">
-            <persName>Robert Oswald </persName><residence>Pascagoula</residence>
+            <persName>Robert Oswald </persName><residence><settlement>Pascagoula</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person024">
-            <persName>J.E. Stockstill </persName><residence>Picayune</residence>
+            <persName>J.E. Stockstill </persName><residence><settlement>Picayune</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person025">
-            <persName>R.P. Parish </persName><occupation>State Treasurer <!-- Pres. Bank of Greenwood --></occupation><residence>Greenwood</residence>
+            <persName>R.P. Parish </persName><occupation>State Treasurer <!-- Pres. Bank of Greenwood --></occupation><residence><settlement>Greenwood</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person026">
-            <persName>Ellett Lawrence </persName><occupation>Finance Chairman</occupation><residence>Greenwood</residence>
+            <persName>Ellett Lawrence </persName><occupation>Finance Chairman</occupation><residence><settlement>Greenwood</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person027">
-            <persName>Robert B. Patterson </persName><occupation>Executive Secretary</occupation><residence>Greenwood</residence></person>     
+            <persName>Robert B. Patterson </persName><occupation>Executive Secretary</occupation><residence><settlement>Greenwood</settlement><region>Mississippi</region></residence></person>     
          <person xml:id="person028">
-            <persName>W. J. Simmons </persName><occupation>Administrator</occupation><residence>1014 Plaza Building Jackson</residence>
+            <persName>W. J. Simmons </persName><occupation>Administrator</occupation><residence>1014 Plaza Building <settlement>Jackson</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person029">
-            <persName>Mrs. Sara McCorkle </persName><occupation>Women's Divison</occupation><residence>Greenwood</residence>
+            <persName>Mrs. Sara McCorkle </persName><occupation>Women's Divison</occupation><residence><settlement>Greenwood</settlement><region>Mississippi</region></residence>
          </person>
          <person xml:id="person030">
-            <persName>Issac Toubin</persName><residence>New York</residence><occupation>Executive Director of the American Jewish Congress</occupation>
+            <persName>Issac Toubin</persName><residence><settlement><region>New York</region></settlement></residence><occupation>Executive Director of the American Jewish Congress</occupation>
          </person>
          <person xml:id="person031">
             <persName>Bill Simmons</persName><occupation>Director of Citizens'Council Forum</occupation>
@@ -157,20 +158,58 @@
          <person xml:id="person046">
             <persName>James J. Kilpatrick</persName>
          </person>
-   
-         <!-- etc.-->
       </listPerson>
       <listPlace>
          <place xml:id="place001">
-            <placeName></placeName>
+            <placeName><region>New York</region></placeName>
          </place>
-         <!-- etc.-->
+         <place xml:id="place002">
+            <placeName><region>Mississippi</region></placeName>
+         </place>
+         <place xml:id="place003">
+            <placeName><settlement>Little Rock</settlement><region>Arkansas</region></placeName>
+         </place>
+         <place xml:id="place004">
+            <placeName><settlement>Jackson</settlement><region>Mississippi</region></placeName>
+         </place>
+         <place xml:id="place005">
+            <placeName><settlement>Greenwood</settlement><region>Mississippi</region></placeName>
+         </place>
+         <place xml:id="place006">
+            <placeName><settlement>New Orleans</settlement><region>Louisiana</region></placeName>
+         </place>
+         <place xml:id="place007">
+            <placeName><region>Illinois</region></placeName>
+         </place>
+         <place xml:id="place008">
+            <placeName><settlement>Cambridge</settlement><region>Massachusetts</region></placeName>
+         </place>
+         <place xml:id="place009">
+            <placeName>401 Fourth Street, S. W. <settlement>Birmingham</settlement><region>Alabama</region></placeName>
+         </place>
+         <place xml:id="place010">
+            <placeName><settlement>Boston</settlement><region>Massachusetts</region></placeName>
+         </place>
+         <place xml:id="place011">
+            <placeName>P.O. Box 1435, <settlement>Jackson</settlement><region>Mississippi</region></placeName>
+         </place>
+         <place xml:id="place012">
+            <placeName>305 Chartres Street, <settlement>New Orleans</settlement><region>Louisiana</region></placeName>
+         </place>
+         <place xml:id="place013">
+            <placeName>P.O. Box 116 <settlement>Richmond</settlement><region>Virginia</region></placeName>
+         </place>
+         <place xml:id="place014">
+            <placeName>64 East Jackson Boulevard. <settlement>Chicago</settlement><region>Illinois</region></placeName>
+         </place>
       </listPlace>
       <listOrg>
          <org xml:id="org001">
-            <orgName></orgName>
+            <orgName>Citizens' Council <addName>Council</addName> <addName>The Citizens' Council of America</addName></orgName>
          </org>
-         <!-- etc.-->
+         <org xml:id="org002">
+            <orgName>National Assocition for the Advancement of Colored People <addName>NAACP</addName></orgName>
+         </org>  
       </listOrg>
    </standOff>
 </TEI>
