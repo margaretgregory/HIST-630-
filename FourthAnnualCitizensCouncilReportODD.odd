@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information - put things about my project  Title  ODD</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <schemaSpec ident="FourthAnnualCitizensCouncilReportODD" start="TEI">
+        <moduleRef key="header"/>
+        <moduleRef key="core" exclude="analytic binaryObject del meeting"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="textstructure" exclude="div1 div2 div3 div4 div5 div6 div7"/>
+        <moduleRef key="namesdates" /> 
+      
+   <!--      <elementSpec module="namesdates" ident="persName" mode="change">
+        <content>
+          <sequence preserveOrder="true"   >  
+            <elementRef key="forename"/>
+            <elementRef key="surname"/>
+          </sequence>
+        </content>
+          </elementSpec>
+        -->
+      
+     <elementSpec module="namesdates" ident="residence" mode="change">
+          <attList>
+          <attDef ident="type" mode="change" usage="req">
+            <datatype>
+              <dataRef key="teidata.enumerated"/> 
+            </datatype>
+            <valList type="closed" mode="replace">
+              <valItem ident="city">
+                <gloss>City</gloss>
+                <desc>The city in which they reside.</desc>
+              </valItem>
+              <valItem ident="address">
+                <gloss>Address</gloss>
+                <desc>The whole address of the person's residence.</desc>
+              </valItem>
+            </valList>
+          </attDef>
+        </attList> 
+      </elementSpec>  
+      </schemaSpec> 
+    </body>
+  </text>
+</TEI>

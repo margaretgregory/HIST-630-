@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="out/FourthAnnualCitizensCouncilReportODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -30,35 +30,35 @@
          <!-- State Executive Committee and Officers -->
          <div type="officers">
             <listPerson>
-               <person><persName ref="#person001">J.O. Sams</persName><residence>Columbus</residence></person>
-               <person><persName ref="#person002">John B. Cunningham </persName><residence>Brooksville</residence></person>
-               <person><persName ref="#person003">N.E. Dacus </persName><residence>Tupelo</residence></person>
-               <person><persName ref="#person004">Shelby Woodward </persName><residence>Louisville</residence></person>
-               <person><persName ref="#person005">Z.M. Veazey, Jr. </persName><residence>Coldwater</residence></person>
-               <person><persName ref="#person006">W.H. Anderson </persName><residence>Ripley</residence></person>
-               <person><persName ref="#person007">Ben Jack Hilbun </persName><residence>Oxford</residence></person>
-               <person><persName ref="#person008">John Tabor </persName><residence>Winona</residence></person>
-               <person><persName ref="#person009">A.E. Britt </persName><residence>Indianola</residence></person>
-               <person><persName ref="#person010">Wilburn Hooker </persName><residence>Lexington</residence></person>
-               <person><persName ref="#person011">Fred Jones </persName><residence>Inverness</residence></person>
-               <person><persName ref="#person012">Pete Williams, Sr. </persName><residence>Clarksdale</residence></person>
-               <person><persName ref="#person013">Tom P. Brady </persName><residence>Brookhaven</residence></person>
-               <person><persName ref="#person014">Albert Gardner </persName><residence>Yazzo City</residence></person>
-               <person><persName ref="#person015">Clay Tucker </persName><residence>Woodville</residence></person>
-               <person><persName ref="#person016">Ellis W. Wright </persName><residence>Jackson</residence></person>
-               <person><persName ref="#person017">W.H. Johnson, Jr. </persName><residence>Decatur</residence></person>
-               <person><persName ref="#person018">R.C. Bradshaw </persName><residence>Pearl</residence></person>
-               <person><persName ref="#person019">H.H. Harpole </persName><residence>Philadelphia</residence></person>
-               <person><persName ref="#person020">Marion Simpson </persName><residence>Canton</residence></person>
-               <person><persName ref="#person021">Dewey Myers </persName><residence>Prentiss</residence></person>
-               <person><persName ref="#person022">Ward Hurt </persName><residence>Lumberton</residence></person>
-               <person><persName ref="#person023">Robert Oswald </persName><residence>Pascagoula</residence></person>
-               <person><persName ref="#person024">J.E. Stockstill </persName><residence>Picayune</residence></person>
-               <person><persName ref="#person025">R.P. Parish </persName><occupation>State Treasurer <!-- Pres. Bank of Greenwood --></occupation><residence>Greenwood</residence></person>
-               <person><persName ref="#person026">Ellett Lawrence </persName><occupation>Finance Chairman</occupation><residence>Greenwood</residence></person>
-               <person><persName ref="#person027">Robert B. Patterson </persName><occupation>Executive Secretary</occupation><residence>Greenwood</residence></person>
-               <person><persName ref="#person028">W. J. Simmons </persName><occupation>Administrator</occupation><residence>1014 Plaza Building Jackson</residence></person>
-               <person><persName ref="#person029">Mrs. Sara McCorkle </persName><occupation>Women's Divison</occupation><residence>Greenwood</residence></person>      
+               <person><persName ref="#person001">J.O. Sams</persName><residence type="city">Columbus</residence></person>
+               <person><persName ref="#person002">John B. Cunningham </persName><residence type="city">Brooksville</residence></person>
+               <person><persName ref="#person003">N.E. Dacus </persName><residence type="city">Tupelo</residence></person>
+               <person><persName ref="#person004">Shelby Woodward </persName><residence type="city">Louisville</residence></person>
+               <person><persName ref="#person005">Z.M. Veazey, Jr. </persName><residence type="city">Coldwater</residence></person>
+               <person><persName ref="#person006">W.H. Anderson </persName><residence type="city">Ripley</residence></person>
+               <person><persName ref="#person007">Ben Jack Hilbun </persName><residence type="city">Oxford</residence></person>
+               <person><persName ref="#person008">John Tabor </persName><residence type="city">Winona</residence></person>
+               <person><persName ref="#person009">A.E. Britt </persName><residence type="city">Indianola</residence></person>
+               <person><persName ref="#person010">Wilburn Hooker </persName><residence type="city">Lexington</residence></person>
+               <person><persName ref="#person011">Fred Jones </persName><residence type="city">Inverness</residence></person>
+               <person><persName ref="#person012">Pete Williams, Sr. </persName><residence type="city">Clarksdale</residence></person>
+               <person><persName ref="#person013">Tom P. Brady </persName><residence type="city">Brookhaven</residence></person>
+               <person><persName ref="#person014">Albert Gardner </persName><residence type="city">Yazzo City</residence></person>
+               <person><persName ref="#person015">Clay Tucker </persName><residence type="city">Woodville</residence></person>
+               <person><persName ref="#person016">Ellis W. Wright </persName><residence type="city">Jackson</residence></person>
+               <person><persName ref="#person017">W.H. Johnson, Jr. </persName><residence type="city">Decatur</residence></person>
+               <person><persName ref="#person018">R.C. Bradshaw </persName><residence type="city">Pearl</residence></person>
+               <person><persName ref="#person019">H.H. Harpole </persName><residence type="city">Philadelphia</residence></person>
+               <person><persName ref="#person020">Marion Simpson </persName><residence type="city">Canton</residence></person>
+               <person><persName ref="#person021">Dewey Myers </persName><residence type="city">Prentiss</residence></person>
+               <person><persName ref="#person022">Ward Hurt </persName><residence type="city">Lumberton</residence></person>
+               <person><persName ref="#person023">Robert Oswald </persName><residence type="city">Pascagoula</residence></person>
+               <person><persName ref="#person024">J.E. Stockstill </persName><residence type="city">Picayune</residence></person>
+               <person><persName ref="#person025">R.P. Parish </persName><occupation>State Treasurer <!-- Pres. Bank of Greenwood --></occupation><residence type="city">Greenwood</residence></person>
+               <person><persName ref="#person026">Ellett Lawrence </persName><occupation>Finance Chairman</occupation><residence type="city">Greenwood</residence></person>
+               <person><persName ref="#person027">Robert B. Patterson </persName><occupation>Executive Secretary</occupation><residence type="city">Greenwood</residence></person>
+               <person><persName ref="#person028">W. J. Simmons </persName><occupation>Administrator</occupation><residence type="address">1014 Plaza Building Jackson</residence></person>
+               <person><persName ref="#person029">Mrs. Sara McCorkle </persName><occupation>Women's Divison</occupation><residence type="city">Greenwood</residence></person>      
             </listPerson></div>
       </front>
       <body>
@@ -86,7 +86,7 @@
          <p>From the Saturday Evening Post, <date>June 15, 1957.</date> Article entitled "The Deep South Says Never." The first of a series of five. </p>
          <p>...."Thus was formed the first Citizens' Council, a movement that in a few months swept the South and gave loud voice to the Southern resistance to school desegregation.</p>
          <p>At that time desegregation seemed inevitable and not far off. Today, in the Deep South, it seems unlikely in the foreseeable future. At that time the South was divided, perplexed, resigned. Today the Solid South is a fact, and its resistance to desegregation is granitic. Let us study the remarkable achievement of a resistance movement that has uncompromisingly set its face against the mainstream of American thought as expressed by the Supreme Court of the land - and has thus far got away with it." </p>
-         <p><persName ref="#person030">Issac Toubin</persName>, of<placeName ref="#place001">New York</placeName>, Executive Director of the American Jewish Congress said at Miami Beach in <date>May of 1958,</date></p>
+         <p><persName ref="#person030">Issac Toubin</persName>, of<!-- I want placeName to be residence ref city --><placeName ref="#place001">New York</placeName>, Executive Director of the American Jewish Congress said at Miami Beach in <date>May of 1958,</date></p>
          <p>"We must face the fact that there is a real possibility of ultimate defeat in the struggle to end racial segregation. The proponents of m'usive resistance in :the South are not fighting for delay or moderation. Their aim is reversal in law, or nullification in fact, of the Supreme Court's decision." </p>
          <p>You who have been members and friends of the resistance movement know what you have done. You know what your local organization has done, and you have a good idea of what your State Association, and also the nation wide organization known as ''The Citizens' Councils of America," has accomplished. </p>
          <p>YOU realize that the Citizens' Council Organization was the rallying point for popular resistance to the unconstitutional "integration" decision of the Supreme Court. You have seen resistance grow from timid faltering efforts on the part of a few individuals to "massive" resistance with the full power of the state governments taking constitutional action towards protecting their people and their schools from destruction. Often, for the individual member, "it is hard to see the forest for the trees." It is hard to picture yourself as an important cog in this gigantic movement, but without you the movement cannot succeed. </p>
