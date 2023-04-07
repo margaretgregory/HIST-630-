@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2023-03-28T21:05:14Z. .
+Schema generated from ODD source 2023-04-07T17:42:48Z. .
 TEI Edition: Version 4.3.0. Last updated on
         31st August 2021, revision b4f72b1ff
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.3.0/
@@ -4705,27 +4705,11 @@ Elements]</a:documentation>
       <element name="respStmt">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(statement of responsibility) supplies a statement of responsibility for the intellectual content of a text, edition, recording, or series, where the specialized elements for authors, editors, etc. do not suffice or do not apply. May also be used to encode information about individuals or organizations which have played a role in the production or distribution of a bibliographic work. [3.12.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]</a:documentation>
          <group>
+            <ref name="resp"/>
             <choice>
-               <group>
-                  <oneOrMore>
-                     <ref name="resp"/>
-                  </oneOrMore>
-                  <oneOrMore>
-                     <ref name="model.nameLike.agent"/>
-                  </oneOrMore>
-               </group>
-               <group>
-                  <oneOrMore>
-                     <ref name="model.nameLike.agent"/>
-                  </oneOrMore>
-                  <oneOrMore>
-                     <ref name="resp"/>
-                  </oneOrMore>
-               </group>
+               <ref name="orgName"/>
+               <ref name="name"/>
             </choice>
-            <zeroOrMore>
-               <ref name="note"/>
-            </zeroOrMore>
          </group>
          <ref name="att.global.attributes"/>
          <ref name="att.canonical.attributes"/>

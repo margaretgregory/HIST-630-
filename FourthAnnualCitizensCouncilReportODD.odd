@@ -6,10 +6,12 @@
         <title>Title</title>
       </titleStmt>
       <publicationStmt>
-        <p>Publication Information - put things about my project  Title  ODD</p>
+        <p> ODD Customization for Associaton of Citizens' Councils of Mississippi:Fourth Annual Report July 1958. Created for Digital Humanities 630 Spring 2023, Texas A and M University.</p>
       </publicationStmt>
       <sourceDesc>
-        <p>Information about the source</p>
+        <p>Association of Citizens' Councils of Mississippi, "Association of Citizens' Council of Mississippi, 4th
+          Annual Report" (1958). Pamphlets and Broadsides. 6.
+          https://egrove.olemiss.edu/citizens_pamph/6  University of Mississippi, eGrove</p>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
@@ -17,20 +19,37 @@
     <body>
       <schemaSpec ident="FourthAnnualCitizensCouncilReportODD" start="TEI">
         <moduleRef key="header"/>
-        <moduleRef key="core" exclude="analytic binaryObject del meeting"/>
+        <moduleRef key="core" exclude=" ab analytic binaryObject del email measure measureGRp media meeting postBox postCode unit catchwrods castItem castgroup castList etym floruit foliation incident incipit xr phr iNode iType interp hom exemplum damageSpandataFacet docImprint castEvent epigraph gb geogName geogFeat gi gram gramGrpfvLib flunder g handShift height heraldry hi cl climate"/> 
         <moduleRef key="tei"/>
         <moduleRef key="textstructure" exclude="div1 div2 div3 div4 div5 div6 div7"/>
-        <moduleRef key="namesdates" /> 
+        <moduleRef key="namesdates" exclude="verse spoken textcrit iso-fs analysis msdescription transcr"/> 
+        <moduleRef key="msdescription" exclude="colophon custodialHist"/> 
       
-   <!--      <elementSpec module="namesdates" ident="persName" mode="change">
-        <content>
-          <sequence preserveOrder="true"   >  
-            <elementRef key="forename"/>
-            <elementRef key="surname"/>
-          </sequence>
-        </content>
-          </elementSpec>
-        -->
+        <elementSpec ident="respStmt" module="header" mode="change">
+          <content>
+            <sequence preserveOrder="true">
+              <elementRef key="resp" minOccurs="1" maxOccurs="1"/>
+              <alternate>
+                <elementRef key="orgName" minOccurs="1" maxOccurs="1"/>
+                <elementRef key="name" minOccurs="1" maxOccurs="1"/>
+              </alternate>
+            </sequence>
+          </content>
+        </elementSpec>
+        <elementSpec ident="respStmt" module="header" mode="change">
+          <content>
+            <sequence preserveOrder="true">
+              <elementRef key="resp" minOccurs="1" maxOccurs="1"/>
+              <alternate>
+                <elementRef key="persName" minOccurs="1" maxOccurs="1"/>
+                <elementRef key="occupation" minOccurs="1" maxOccurs="1"/>
+                <elementRef key="name" minOccurs="1" maxOccurs="1"/>
+                <elementRef key="address" minOccurs="1" maxOccurs="1"/>
+              </alternate>
+            </sequence>
+          </content>
+        </elementSpec>
+
       
      <elementSpec module="namesdates" ident="residence" mode="change">
           <attList>
@@ -51,6 +70,27 @@
           </attDef>
         </attList> 
       </elementSpec>  
+        
+        <elementSpec module="core" ident="list" mode="add">
+          <attList>
+            <attDef ident="type" mode="add" usage="req">
+              <datatype>
+                <dataRef key="teidata.enumerated"/> 
+              </datatype>
+              <valList type="closed" mode="replace">
+                <valItem ident="title">
+                  <gloss>Title</gloss>
+                  <desc>Refers to a title of a book or pamphlet that is being sold or advertised within the 4th annual report.</desc>
+                </valItem>
+                <valItem ident="title">
+                  <gloss>Title</gloss>
+                  <desc>Refers to a new topic title within the document.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList> 
+        </elementSpec>  
+        
       </schemaSpec> 
     </body>
   </text>
