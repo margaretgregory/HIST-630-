@@ -49,8 +49,7 @@
             </sequence>
           </content>
         </elementSpec>
-
-      
+        
      <elementSpec module="namesdates" ident="residence" mode="change">
           <attList>
           <attDef ident="type" mode="change" usage="req">
