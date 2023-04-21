@@ -4,13 +4,7 @@
     <sch:ns uri="http://www.tei-c.org/ns/1.0" prefix="tei"/>
     
     
-    
-     <!--   
-        <sch:rule context="// tei:persName/@type">
-            <sch:assert test=".='J.O. Sams'"></sch:assert>
-        </sch:rule>
-            https://raw.githubusercontent.com/margaretgregory/HIST-630-/main/standoffMarkup4thAnnualCitizensCouncilReport.xml       -->  
-            
+     
         <sch:pattern>
         <sch:rule context="tei:persName/@ref">
             <sch:let name="standoff"
@@ -80,6 +74,12 @@
         </sch:rule>
     </sch:pattern>  
     -->
+    <!--   
+        <sch:rule context="// tei:persName/@type">
+            <sch:assert test=".='J.O. Sams'"></sch:assert>
+        </sch:rule>
+            https://raw.githubusercontent.com/margaretgregory/HIST-630-/main/standoffMarkup4thAnnualCitizensCouncilReport.xml       -->  
+    
     
 </sch:schema>
 
