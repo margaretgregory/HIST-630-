@@ -10,51 +10,51 @@
             <sch:let name="standoff"
                 value="doc('https://raw.githubusercontent.com/margaretgregory/HIST-630-/main/standoffMarkup4thAnnualCitizensCouncilReport.xml')"/>
             <sch:let name="personIDs"
-                value="$standoff//person/@xml:id"/> 
+                value="$standoff//tei:listPerson/tei:person/@xml:id"/>
+            <sch:let name="personRefValues" value="for $i in $personIDs return concat('#', $i)"/>
             <sch:let name="error" value="."/>
             <sch:assert
-                test=". =$personIDs"
+                test=". =$personRefValues"
                 ><sch:value-of select="$error"/> Error: Acceptable values are: 
-                <sch:value-of select="personIDs"/>
+                <sch:value-of select="string-join($personIDs, ', ')"/>
           
             </sch:assert>
         </sch:rule>
            
-    </sch:pattern>      
-    
-    <sch:pattern>
+  
+   
         <sch:rule context="tei:placeName/@ref">
             <sch:let name="standoff"
                 value="doc('https://raw.githubusercontent.com/margaretgregory/HIST-630-/main/standoffMarkup4thAnnualCitizensCouncilReport.xml')"/>
             <sch:let name="placeIDs"
-                value="$standoff//place/@xml:id"/> 
+                value="$standoff//tei:listPlace/tei:place/@xml:id"/> 
+            <sch:let name="placeRefValues" value="for $i in $placeIDs return concat('#', $i)"/>
             <sch:let name="error" value="."/>
             <sch:assert
-                test=". =$placeIDs"
+                test=". =$placeRefValues"
                 ><sch:value-of select="$error"/> Error: Acceptable values are: 
-                <sch:value-of select="placeIDs"/>
+                <sch:value-of select="string-join($placeIDs, ', ')"/>
                 
             </sch:assert>
         </sch:rule>
         
-    </sch:pattern>   
     
-    <sch:pattern>
         <sch:rule context="tei:orgName/@ref">
             <sch:let name="standoff"
                 value="doc('https://raw.githubusercontent.com/margaretgregory/HIST-630-/main/standoffMarkup4thAnnualCitizensCouncilReport.xml')"/>
             <sch:let name="orgIDs"
-                value="$standoff//org/@xml:id"/> 
+                value="$standoff//tei:listOrg/tei:org/@xml:id"/> 
+            <sch:let name="orgRefValues" value="for $i in $orgIDs return concat('#', $i)"/>
             <sch:let name="error" value="."/>
             <sch:assert
-                test=". =$orgIDs"
+                test=". =$orgRefValues"
                 ><sch:value-of select="$error"/> Error: Acceptable values are: 
-                <sch:value-of select="orgIDs"/>
+                <sch:value-of select="string-join($orgIDs, ', ')"/>
                 
             </sch:assert>
         </sch:rule>
         
-    </sch:pattern>    
+       
             
  <!--           
             
@@ -80,7 +80,7 @@
         </sch:rule>
             https://raw.githubusercontent.com/margaretgregory/HIST-630-/main/standoffMarkup4thAnnualCitizensCouncilReport.xml       -->  
     
-    
+        </sch:pattern>  
 </sch:schema>
 
 

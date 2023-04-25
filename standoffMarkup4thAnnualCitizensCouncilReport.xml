@@ -158,6 +158,9 @@
          <person xml:id="person046">
             <persName>James J. Kilpatrick</persName>
          </person>
+         <person xml:id="person047">
+            <persName>Alfred Friendly</persName>
+         </person>
       </listPerson>
       <listPlace>
          <place xml:id="place001">
