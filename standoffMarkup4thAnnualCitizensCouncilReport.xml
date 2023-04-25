@@ -18,7 +18,9 @@
          </sourceDesc>
       </fileDesc>
   </teiHeader>
-   <standOff>
+   <text>
+   <body>
+    
       <listPerson>
          <person xml:id="person001">
             <persName>J.O. Sams</persName><residence><settlement>Columbus</settlement><region>Mississippi</region></residence>
@@ -214,5 +216,6 @@
             <orgName>National Assocition for the Advancement of Colored People <addName>NAACP</addName></orgName>
          </org>  
       </listOrg>
-   </standOff>
+   </body>
+   </text>
 </TEI>
