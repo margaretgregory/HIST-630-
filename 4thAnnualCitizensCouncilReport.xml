@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--  <?xml-model href="out/FourthAnnualCitizensCouncilReportODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="out/FourthAnnualCitizensCouncilReportODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
-<?xml-model href="4thAnnualSchematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+
+<?xml-model href="out/FourthAnnualCitizensCouncilReportODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/FourthAnnualCitizensCouncilReportODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"> 
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Associaton of Citizens' Councils of Mississippi:Fourth Annual Report July 1958</title>
-            <author>Association of Citizens' Councils of Mississippi</author><respStmt><resp>Editor</resp><name>Margaret Gregory</name></respStmt>
+            <respStmt>
+               <resp>Author</resp>
+               <name>Association of Citizens' Councils of Mississippi</name>
+               <resp>Editor</resp><name>Margaret Gregory</name></respStmt>
          </titleStmt>
          <publicationStmt>
             <p>Encoded for Digital Humanities 630 Spring 2023, Texas A and M University</p>
@@ -65,7 +69,7 @@
       <body>
          <p>The fourth anniversary of the birth of your Citizens' Council movement-was quietly observed on <date>July 11, 1958</date>. It is fitting that those of us who have taken part in the resistance movement against forced integration look back over the past four years and make an appraisal of the situation then and the situation now.</p>
          <p>How successful have our efforts been, combined with those of many thousands of other patriotic Americans?</p>
-         <p>Let's hear from some nationally recognized sources: From the Washington Post Times-Herald, dated <date>March 21, 1957</date>, by the managing editor,<persName>Alfred Friendly</persName></p>
+         <p>Let's hear from some nationally recognized sources: From the Washington Post Times-Herald, dated <date>March 21, 1957</date>, by the managing editor,<persName ref="#person047">Alfred Friendly</persName></p>
          <p>"Segregationists in the Deep South have won the first round against racial intermixture in the public schools."...."The South has built a strong set of obstacles blocking the road to future integration. Here is the fruit of the segregationists' energetic and skillful work:</p>
          <p>1. THE principle of uncompromising segregation has been made to reign without effective challenge in state and local politics. With exceptions interesting only as curiosities, Deep South politicians do not and cannot breathe a public word to the contrary.</p>
          <p>2. MODERATES-those who oppose overnight and large-scale school integration but who nevertheless believe that some steps should be taken in the next few years leading to admission of some Negro students to hitherto white schools-have been placed on the defensive, so much so that they are scarcely to be heard in public. There is almost no debate. Only rarely is there a white voice raised in the press. the pulpit and the universities suggesting some forthright movement toward desegregation.
