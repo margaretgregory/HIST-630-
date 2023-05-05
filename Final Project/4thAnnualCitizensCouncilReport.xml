@@ -34,6 +34,7 @@
          </docTitle>
          <!-- State Executive Committee and Officers -->
      <div type="officers">
+
             <listPerson>
                <person><persName ref="#person001">J.O. Sams</persName><residence type="city">Columbus</residence></person>
                <person><persName ref="#person002">John B. Cunningham </persName><residence type="city">Brooksville</residence></person>
