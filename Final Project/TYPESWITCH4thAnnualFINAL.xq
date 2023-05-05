@@ -17,7 +17,7 @@ declare function local:front($nodes as node()*) {
                 (:if ($node[tei:occupation]) then <li>{local:front($node/tei:persName/node())}, {local:front($node/tei:occupation/node())}, {local:front($node/tei:residence/node())}</li>
                 else <li>{local:front($node/tei:persName/node())}, {local:front($node/tei:residence/node())}</li>:)
             case element (tei:persName) return 
-                <a href="{concat("./StandoffHTML.xhtml", $node/@ref)}">{local:body($node/node())}</a>
+                <a href="{concat("./StandoffHTML.html", $node/@ref)}">{local:body($node/node())}</a>
             case element (tei:residence) return concat(", ", local:front($node/node()))
             case element (tei:occupation) return concat(", ", local:front($node/node()))
 
@@ -41,9 +41,9 @@ declare function local:body($nodes as node()*) {
             case element (tei:name) return local:body($node/node())
             case element (tei:measure) return local:body($node/node())
             case element (tei:persName) return 
-                <a href="{concat("./StandoffHTML.xhtml", $node/@ref)}">{local:body($node/node())}</a>
+                <a href="{concat("./StandoffHTML.html", $node/@ref)}">{local:body($node/node())}</a>
             case element (tei:placeName) return 
-                <a href="{concat("./StandoffHTML.xhtml", $node/@ref)}">{local:body($node/node())}</a>            
+                <a href="{concat("./StandoffHTML.html", $node/@ref)}">{local:body($node/node())}</a>            
             
             default return ()
 };

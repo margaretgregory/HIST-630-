@@ -1,3 +1,47 @@
 body {
     background-color:pink; 
 }
+
+html {
+	margin: 10px;
+	padding: 0;
+	}
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+	background-color: lightblue ;
+	margin: 50px; 
+	padding: 0;
+	}
+p { 
+	margin-top: 20px; 
+	text-align: justify;
+	}
+h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 9px; 
+	margin-bottom: 20px; 
+	color: navy;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: purple;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: fuchsia;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: black;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+
+
+
